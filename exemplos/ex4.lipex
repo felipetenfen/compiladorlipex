@@ -1,0 +1,17 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Faltou fechamento de Bloco */
+
+int idade = 19;
+
+program
+{
+	if (idade >= 18)
+	{
+		write("Maior de idade");
+	
+	else
+	{
+		write("Menor de idade");
+	}
+}
+end

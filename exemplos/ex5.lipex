@@ -1,0 +1,14 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Tipos incompativeis */
+
+int idade;
+str nome;
+
+program
+{
+	write("Olá mundo");
+	readln(nome);
+	
+	idade = 3 + nome;
+}
+end

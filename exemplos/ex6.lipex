@@ -1,0 +1,14 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Tipos incompativeis */
+
+byte idade;
+int idadeFinal = 23;
+
+program
+{
+	write("Olá mundo");
+	readln(idade);
+
+	idade = idadeFinal;
+}
+end

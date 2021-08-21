@@ -1,0 +1,13 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Variavel dupicada */
+
+int idade;
+str texto;
+bool continuar;
+int idade;
+
+program
+{
+	write("Olá mundo");
+}
+end

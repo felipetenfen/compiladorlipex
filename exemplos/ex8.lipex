@@ -1,0 +1,13 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Tipos incompativeis */
+
+bool continuar = false;
+
+program
+{
+	while (! continuar || 4 > "lapis")
+	{
+		write("Olá mundo");	
+	}
+}
+end

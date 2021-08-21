@@ -1,0 +1,10 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Sem fechamento de str */
+
+str nome;
+
+program
+{
+	nome = "BCC;
+}
+end

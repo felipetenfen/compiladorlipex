@@ -1,0 +1,26 @@
+/* Exemplo de Programa na linguagem Lipex */
+/* Programa valido */
+
+int idade, op;
+str nome;
+bool parar = false;
+
+program
+{
+	while (! parar || idade >= 100)
+	{
+		write("Informe seu nome: ");
+		readln(nome);
+
+		write("Informe sua idade: ");
+		readln(idade);
+
+		writeln("Seu nome e ", nome, " e voce possui ", idade, " anos");
+
+		write("Desejas continuar? 1 - Sim | 0 - Nao");
+		readln(op);
+
+		parar = op == 0;
+	}
+}
+end
